@@ -1,0 +1,1 @@
+//TODO:检测到屏幕720p(window.screen.width<=1280)缩放为80%

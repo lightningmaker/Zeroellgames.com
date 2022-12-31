@@ -1,0 +1,75 @@
+.p1TopBar{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.826);
+    position: absolute;
+    top:0px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.705);
+    text-align: left;
+    font-size: 18px;
+
+}
+
+.p1TopBarLogo{
+    position: absolute;
+    top:0%;
+    height: 72px;
+    padding-top:5px;
+    padding-bottom:0px;
+    padding-left:30px;
+    display: inline-block;
+}
+
+.p1TopBarText{
+    line-height: 60px;
+    margin-left: 55px;
+    margin-right: 55px;
+    display: inline-block;
+    position:relative;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+
+.p1TopBarText:hover{
+    text-shadow: 0 0 10px white, 0 0 20px white;
+}
+
+
+.p1RightHalf{
+    position: absolute;
+    top:auto;
+    height: auto;
+    width: 700px;
+    left:50%;
+    text-align: center;
+    font-size:28px;
+
+    padding-left:100px;
+    padding-right:100px;
+
+    /*outline: white solid 1px;*/
+
+}
+
+.p1CtsLogo{
+    width: 100%;
+    margin-bottom: -30px;
+}
+
+.p1CtsSlogan{
+    width: 100%;
+    font-size: 22px;
+    background: rgba(0, 0, 0, 0.658);
+    box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.305);
+}
+
+.p1CtsDownload{
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:20px;
+    width: 200px;
+
+
+}
+

@@ -1,0 +1,109 @@
+.p2LeftLogos{
+    position: absolute;
+    top:50%;
+    height: 900px;
+    margin-top: -450px;
+    width: 420px;
+    left:50%;
+    margin-left:-750px;
+    text-align: center;
+    font-size:28px;
+
+    vertical-align: middle;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+
+    /*outline: white solid 1px;*/
+
+    padding-top:20px;
+
+}
+
+.p2Logo{
+    width: 100%;
+}
+
+.p2RightView{
+    position: absolute;
+    top:50%;
+    height: 900px;
+    margin-top: -450px;
+    width: 1000px;
+    margin-left:-300px;
+    left:50%;
+
+    text-align: center;
+    font-size:28px;
+
+    vertical-align: middle;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+
+    /*outline: white solid 1px; */
+}
+
+.p2InfoBox{
+    width: 100%;
+    text-align:justify;
+    font-family: "SimHei", sans-serif;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.p2Title{
+    font-size: 28px;
+    line-height: 28px;
+    display: inline-block;
+    vertical-align:middle;
+}
+
+
+.p2EnTitle{
+    font-size: 20px;
+    display: inline-block;
+    vertical-align:middle;
+    margin-left: 12px;
+}
+
+.p2ShortLine{
+    width:155px;
+    height:3px;
+    background: white;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.p2Text{
+    font-size: 20px;
+
+}
+
+.p2Contact{
+    width:100%;
+    text-align: right;
+    font-size: 20px;
+
+
+
+}
+.p2ContactRoot{
+    position: relative;
+}
+
+
+.qqinvite{
+    position: absolute;
+    width: 200px;
+    bottom: 40px;
+    left:18px;
+    display:none;
+}
+
+.p2ContactRoot:hover .qqinvite{
+    display:block ;
+}

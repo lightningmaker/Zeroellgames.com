@@ -1,0 +1,46 @@
+.p5BottomBar{
+    width: 100%;
+    height: 70px;
+    background-color: #242424;
+    position: absolute;
+    bottom:0px;
+    box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.559);
+}
+
+.p5BottomBarText{
+    font-size: 14px;
+    text-align: center;height:100%;
+    vertical-align: center; 
+    line-height: 70px;
+}
+
+
+.p5VideoBorder{
+    position: absolute;
+    top:50%;
+    height: 540px;
+    width: 960px;
+    margin-top:-255px;
+    left:50%;
+    margin-left: -480px;
+    box-shadow: -5px 0 10px  5px #0000004b,
+    0 -5px 10px 5px #0000004b, 
+    0 5px 10px  5px #0000004b,
+    5px 0 10px  5px #0000004b; 
+    background: black;
+}
+
+.p5Video{
+    width:100%;
+    height:100%;
+
+}
+
+.p5CtsLogo{
+    position: absolute;
+    bottom:0%;
+    height: 70px;
+    padding-top:15px;
+    padding-bottom:10px;
+    padding-left:40px;
+}
