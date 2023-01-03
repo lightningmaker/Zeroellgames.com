@@ -7,6 +7,7 @@
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.705);
     text-align: left;
     font-size: 18px;
+    overflow: hidden;
 
 }
 

@@ -32,7 +32,13 @@ a{
 }
 
 /*按照手机进行布局*/
-@media (min-width: 371px) and (max-width: 600px){
+@media (min-width: 441px) and (max-width: 600px){
+    body{
+        zoom:80%;
+    }
+}
+
+@media (min-width: 371px) and (max-width: 440px){
     body{
         zoom:60%;
     }
