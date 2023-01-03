@@ -35,6 +35,10 @@
     margin-left: 280px;
 }
 
+.page1{
+    background-image:url('/img/b0.png?v=4')
+}
+
 /*按照手机进行布局*/
 @media (max-width: 600px){
     .p1TopBarText{
@@ -44,6 +48,10 @@
 
     .p1SpaceBeforeText{
         margin-left: 180px;
+    }
+
+    .page1{
+        background-image:url('/img/b0cut.png?v=4')
     }
 }
 
