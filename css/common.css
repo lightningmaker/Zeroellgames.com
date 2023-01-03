@@ -4,12 +4,38 @@ a{
 }
 
 
+
 .page{
     font-size: 40px;
     background-color: black;
     background-repeat: no-repeat;
     background-size:cover;
     background-position:center;
+}
+
+@media (min-width: 1185px) and (max-width: 1464px){
+    body{
+        zoom:80%;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1185px){
+    body{
+        zoom:60%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 899px){
+    body{
+        zoom:40%;
+    }
+}
+
+/*按照手机进行布局*/
+@media (max-width: 600px){
+    body{
+        zoom:40%;
+    }
 }
 
 @font-face {

@@ -30,6 +30,22 @@
     cursor: pointer;
 }
 
+.p1SpaceBeforeText{
+    margin-left: 280px;
+}
+
+/*按照手机进行布局*/
+@media (max-width: 600px){
+    .p1TopBarText{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .p1SpaceBeforeText{
+        margin-left: 180px;
+    }
+}
+
 
 .p1TopBarText:hover{
     text-shadow: 0 0 10px white, 0 0 20px white;
@@ -49,6 +65,16 @@
     padding-right:100px;
 
     /*outline: white solid 1px;*/
+
+}
+
+/*按照手机进行布局*/
+@media (max-width: 600px){
+    .p1RightHalf{
+        margin-left: -350px;
+
+    }
+
 
 }
 
