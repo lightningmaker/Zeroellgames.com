@@ -45,7 +45,7 @@ function touchMove(e) {
     pageData.diff = pageData.endY - pageData.startY;
 }
 function touchEnd(e) {
-    if (Math.abs(pageData.diff) > 150 && pageData.canTouch) {
+    if (Math.abs(pageData.diff) > 75 && pageData.canTouch) {//150
         changeDoBefore(pageData.diff);
     }
     // setTimeout(function(){
