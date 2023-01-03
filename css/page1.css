@@ -36,7 +36,7 @@
 }
 
 .page1{
-    background-image:url('/img/b0.png?v=4')
+    background-image:url('../img/b0.png?v=4')
 }
 
 /*按照手机进行布局*/
@@ -51,7 +51,7 @@
     }
 
     .page1{
-        background-image:url('/img/b0cut.png?v=4')
+        background-image:url('../img/b0cut.png?v=4')
     }
 }
 
