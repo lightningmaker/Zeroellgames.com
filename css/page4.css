@@ -1,0 +1,136 @@
+.p4character{
+    position: absolute;
+    top:50%;
+    height: 1200px;
+    margin-top: -350px;
+    width: auto;
+    left:50%;
+    margin-left:-750px;
+    /*outline: white solid 1px;*/
+
+    padding-top:20px;
+
+
+}
+
+.p4Logo{
+    mix-blend-mode: soft-light;
+    position: absolute;
+    top:50%;
+    height: 280px;
+    margin-top: -200px;
+    width: auto;
+    left:50%;
+    margin-left: -70px;
+
+}
+
+/*按照手机进行布局*/
+@media (max-width: 600px){
+    .p4character{
+        position: absolute;
+        top:50%;
+        height: 1200px;
+        margin-top: -350px;
+        width: 850px;
+        left:50%;
+        margin-left:-350px;
+        /*outline: white solid 1px;*/
+    
+        padding-top:20px;
+    
+    
+    }
+
+    .p4Logo{
+        display: none;
+    }
+
+
+}
+
+.p4RightView{
+    position: absolute;
+    top:50%;
+    height: 500px;
+    margin-top: 60px;
+    width: 500px;
+    margin-left:-50px;
+    left:50%;
+
+    text-align: center;
+    font-size:28px;
+
+    vertical-align: top;
+    display: flex;
+    justify-content:start;
+    align-items:center;
+    flex-direction:column;
+
+    /*outline: white solid 1px; */
+}
+
+/*按照手机进行布局*/
+@media (max-width: 600px){
+    .p4RightView{
+        position: absolute;
+        top:50%;
+        height: auto;
+        margin-top: 160px;
+        width: 500px;
+        margin-left:-250px;
+        left:50%;
+        padding: 15px;
+        padding-top: 5px;
+        background: rgba(0, 0, 0, 0.514);
+    }
+
+
+}
+
+
+.p4InfoBox{
+    width: 100%;
+    text-align:justify;
+    font-family: "SimHei", sans-serif;
+
+    margin-bottom: 20px;
+}
+
+.p4Contact{
+    width:100%;
+    text-align: right;
+    font-size: 20px;
+
+
+
+}
+
+
+.p4Title{
+    font-size: 28px;
+    line-height: 28px;
+    display: inline-block;
+    vertical-align:middle;
+}
+
+
+.p4EnTitle{
+    font-size: 20px;
+    display: inline-block;
+    vertical-align:middle;
+    margin-left: 12px;
+}
+
+.p4ShortLine{
+    width:155px;
+    height:3px;
+    background: white;
+    margin-top: 3px;
+    margin-bottom: 8px;
+}
+
+.p4Text{
+    font-size: 20px;
+
+}
